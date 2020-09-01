@@ -5,12 +5,16 @@
 \alias{bdverse_core_pkgs}
 \title{All \code{bdverse} core packages}
 \format{
-A character vector with eight elements
+A data frame with 8 rows and 2 variables:
+\describe{
+\item{\code{pkg_name}}{Pakcage name}
+\item{\code{pkg_color}}{Package color (Hex color code)}
+}
 }
 \usage{
 bdverse_core_pkgs
 }
 \description{
-All the names of \code{bdverse} \strong{core} packages (eight packages)
+basic info  on all of \code{bdverse} \strong{core} packages (eight packages)
 }
 \keyword{datasets}
